@@ -30,3 +30,8 @@ function prependKitten(a){
    var x= [a,...kittens];
    return x;
 }  
+
+function removeLastKitten(){
+  var x=kittens.slice(0,kittens.length -1);
+  return kittens;
+}
