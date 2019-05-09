@@ -10,3 +10,8 @@ function destructivelyPrependKitten(a){
   kittens=[a,...kittens];
   return kittens;
 }
+
+function destructivelyPrependKitten(a){
+  kittens=[a,...kittens];
+  return kittens;
+}
