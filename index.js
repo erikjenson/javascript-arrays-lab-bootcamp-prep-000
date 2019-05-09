@@ -11,7 +11,7 @@ function destructivelyPrependKitten(a){
   return kittens;
 }
 
-function destructivelyPrependKitten(a){
-  kittens=[a,...kittens];
+function destructivelyRemoveLastKitten(){
+  kittens=kittens.Slice(0,kittens.length -1);
   return kittens;
 }
